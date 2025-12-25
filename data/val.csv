@@ -1,0 +1,176 @@
+patient_id,encounter_date,age,sex,diagnosis,medications,smoker,bp_systolic,note_text,readmitted_30d
+P00369,2022-07-02,42,F,Diabetes,"insulin, metformin",,163,"42F presents for routine diabetes management. Her home blood pressure readings have been elevated, averaging 163 systolic, and she reports occasional fatigue. She continues on her metformin and insulin regimen as prescribed, though she notes occasional forgetfulness with her evening dose. We discussed lifestyle modifications and reviewed her recent lab work, which showed stable HbA1c. We will monitor her BP closely and consider a diuretic if further elevations persist, to prevent any potential future complications.",0
+P00333,2024-06-06,40,M,COPD,albuterol,,183,"Date: 2023-10-27
+
+Subjective: Mr. Smith, a 40-year-old male with a history of COPD, presented today for follow-up. He reports intermittent shortness of breath, particularly with exertion, but denies any recent exacerbations requiring hospitalization. He has been using his albuterol inhaler more frequently over the past week.
+
+Objective: Blood pressure was elevated at 183/92. Oxygen saturation was 94% on room air. Lungs were clear to auscultation bilaterally.
+
+Assessment: Stable COPD, with a mild increase in symptom burden. The elevated blood pressure warrants further investigation.
+
+Plan: Continue albuterol as needed. Will schedule a follow-up in 2 weeks to recheck blood pressure and assess symptom control. Consider adding a long-acting bronchodilator if symptoms persist. Patient educated on signs and symptoms of worsening COPD.",0
+P00183,2022-09-12,84,F,Heart Failure,furosemide,Yes,165,"Ms. Eleanor Vance is an 84-year-old female with a history of heart failure presenting for routine follow-up. She reports good adherence to her diuretic regimen and denies significant shortness of breath or edema, though she does note occasional leg swelling particularly after a long day. Her blood pressure today was elevated at 165 systolic, which is higher than her usual range, and we discussed the importance of monitoring this. She continues to smoke, which remains a concern given her cardiac history, and we reiterated cessation resources. We will continue her current furosemide and re-evaluate her blood pressure at her next visit, advising close monitoring for any worsening symptoms.",0
+P00348,2023-05-03,53,M,Asthma,fluticasone,,119,"**Subjective:** Mr. Smith, a 53-year-old male with a history of asthma, presents for routine follow-up. He reports generally good control of his breathing, though notes occasional wheezing after strenuous activity, which he manages with his inhaler. He denies any recent exacerbations requiring emergency room visits or hospitalizations.
+
+**Objective:** Vital signs are stable, with a blood pressure of 119/78. Auscultation reveals clear breath sounds bilaterally. He continues on his daily fluticasone.
+
+**Assessment:** Asthma, well-controlled.
+
+**Plan:** Continue current medication regimen. Advised to monitor for any worsening symptoms and to seek prompt medical attention if he experiences significant breathing difficulties, especially given the slight increase in his nocturnal cough lately. Follow up in 3 months.",0
+P00012,2023-01-01,39,F,COPD,"albuterol, tiotropium",No,174,"Subjective: Ms. Smith, a 39-year-old female with a history of COPD, presents today for routine follow-up. She reports generally stable breathing, though admits to occasional increased shortness of breath with exertion over the past week. She denies any recent exacerbations or hospitalizations. She continues her usual inhalers, albuterol as needed and tiotropium daily, and states she is adhering well to her regimen.
+
+Objective: Vital signs today revealed a systolic blood pressure of 174. Her oxygen saturation was 94% on room air. Physical exam was otherwise unremarkable for her chronic lung disease.
+
+Assessment: Stable COPD, likely without acute exacerbation. Mildly elevated blood pressure noted.
+
+Plan: Continue current COPD management with albuterol and tiotropium. Will recheck blood pressure in clinic next visit. Encourage continued adherence to medication. Advised to seek medical attention if symptoms worsen significantly.",0
+P00134,2022-04-12,68,M,Heart Failure,"furosemide, carvedilol",No,129,"**Subjective:** Mr. Smith is a 68-year-old male with a history of congestive heart failure presenting for routine follow-up. He reports feeling generally well, with no new or worsening shortness of breath or significant edema. He denies any chest pain or palpitations. He mentions he's been trying to cut back on his salt intake.
+
+**Objective:** Vital signs: BP 129/80, HR 72, RR 16, Temp 98.6F. Physical exam unremarkable. Lungs clear to auscultation bilaterally. No peripheral edema noted.
+
+**Assessment & Plan:** Stable heart failure. Continue current regimen of furosemide and carvedilol. Discussed fluid and sodium restriction. Follow up in 3 months. No immediate concerns for decompensation.",1
+P00415,2024-04-18,70,F,COPD,"albuterol, tiotropium",No,131,"CC: Follow-up for COPD management.
+
+HPI: Ms. Smith is a 70-year-old female with a history of COPD presenting for her routine follow-up. She reports stable shortness of breath, noting occasional increases with exertion, but denies any new or worsening cough or sputum production. She continues to use her albuterol inhaler as needed, finding it helpful. She denies any recent exacerbations or hospitalizations.
+
+ROS: Otherwise unremarkable.
+
+PMH: COPD.
+
+MEDS: Albuterol MDI, tiotropium.
+
+ALL: NKDA.
+
+PHYSICAL EXAM:
+Vitals: BP 131/82, HR 78, RR 16, SpO2 94% on room air.
+General: No acute distress.
+Lungs: Clear to auscultation bilaterally, no wheezes or crackles appreciated.
+
+ASSESSMENT/PLAN:
+1. COPD: Stable. Continue current regimen of albuterol and tiotropium. Discussed adherence and proper inhaler technique. Advised to monitor for worsening symptoms and seek prompt care if any signs of exacerbation arise, as she had a brief period of",0
+P00294,2022-04-10,66,F,COPD,tiotropium,No,153,"66F presents for routine follow-up of COPD. She reports good adherence with her tiotropium inhaler and denies any acute exacerbations since her last visit. She has noted occasional shortness of breath with exertion, but it is manageable. Her blood pressure today was 153/88, which is a bit elevated from her baseline. We will continue her current management and recheck her BP in clinic next month. She denies any recent hospitalizations.",0
+P00371,2023-01-30,33,F,Diabetes,"metformin, insulin",No,132,"Ms. J.D., a 33-year-old female with a history of diabetes, presented for routine follow-up. Her blood pressure was 132/88 today, which is a bit elevated from her usual. She reports good adherence to her metformin and insulin regimen, though admits to occasionally missing a dose when she's feeling rushed. We discussed the importance of consistent medication use, especially given her recent lab trends which were stable. She denies any new symptoms or concerns, and we will re-evaluate her glycemic control in three months.",0
+P00351,2022-07-27,81,F,Heart Failure,"carvedilol, furosemide",,154,"Ms. Smith is an 81-year-old female presenting for follow-up of her heart failure. She reports feeling generally well, with occasional mild shortness of breath with exertion. Her carvedilol and lasix are helping to manage fluid status, though she admits to sometimes missing doses of the diuretic. Blood pressure today is elevated at 154 systolic. We will continue current management with close monitoring for any signs of worsening symptoms.",0
+P00267,2024-02-12,88,M,Heart Failure,carvedilol,No,129,"**SUBJECTIVE:** Mr. Henderson, an 88-year-old male with a history of heart failure, presents for a routine follow-up. He reports feeling generally well, with no significant shortness of breath or edema. He denies any chest pain or palpitations. He is still taking his beta-blocker, carvedilol, as prescribed and states he has no trouble remembering to take it.
+
+**OBJECTIVE:** Vital signs: BP 129/82, HR 70, RR 16, SpO2 98% on room air. Physical exam was unremarkable.
+
+**ASSESSMENT/PLAN:** Stable heart failure. Continue current medical management, including the carvedilol. Patient is advised to monitor for any worsening symptoms and to call if he experiences increased difficulty breathing or swelling. He was also reminded about the importance of attending all scheduled appointments to prevent any potential setbacks.",0
+P00372,2024-08-08,32,M,Diabetes,insulin,Yes,135,"32M presents for routine diabetes management. Patient reports good glucose control on his insulin regimen, though he admits to occasionally missing doses when busy. He denies any new symptoms since his last visit. He continues to smoke, and we discussed smoking cessation options again. His blood pressure today was 135/85. We will continue current management with a follow-up in three months.",1
+P00197,2022-03-21,68,F,COPD,tiotropium,No,174,"**Subjective:** Ms. Smith is a 68-year-old female presenting for routine follow-up of her chronic obstructive pulmonary disease. She reports generally stable symptoms, though notes occasional increased shortness of breath with exertion, especially after a recent cold. She denies any new cough or sputum production. She continues her daily nebulizer treatments, which she finds helpful.
+
+**Objective:** Vital signs today include a blood pressure of 174/88. Lung auscultation reveals diminished breath sounds bilaterally with scattered wheezes, consistent with her known COPD. Oxygen saturation on room air is 92%.
+
+**Assessment:** Stable COPD. Mild exacerbation of symptoms likely due to recent upper respiratory infection.
+
+**Plan:** Continue current medical regimen, including tiotropium. Encourage adherence to incentive spirometry. Discussed importance of prompt reporting of any worsening symptoms to prevent further decline or potential return visit. Advised to schedule follow-up in 3 months.",1
+P00050,2024-07-10,65,F,Asthma,"fluticasone, albuterol",No,170,"Ms. Smith is a 65-year-old female presenting for routine follow-up of her persistent asthma. She reports good control on her daily inhaled corticosteroid, though she admits to occasional use of her rescue inhaler, particularly during allergy season. Her blood pressure today was elevated at 170/90, which is a bit higher than her usual baseline. We discussed optimizing her inhaler technique and reviewed her current medications, including the albuterol. She denies any recent exacerbations requiring emergency room visits or hospitalizations.",0
+P00315,2023-05-16,39,M,Hypertension,lisinopril,No,111,"**Subjective:** 39-year-old male presents for routine follow-up of his blood pressure. He reports feeling well, no new complaints. He denies any chest pain, shortness of breath, or headaches. He continues his lisinopril daily and denies any side effects.
+
+**Objective:** Vital signs: BP 111/72, HR 68, RR 16, Temp 98.6F. Physical exam unremarkable.
+
+**Assessment:**
+1. Hypertension, well-controlled.
+
+**Plan:** Continue lisinopril. Follow up in 3 months. Encouraged continued healthy lifestyle.",0
+P00080,2023-04-06,34,M,Heart Failure,carvedilol,,124,"34M presents for routine follow-up for his heart failure.  He reports feeling generally well and denies any recent chest pain or shortness of breath.  He is continuing his carvedilol as prescribed and tolerating it without issue, though he does note occasional dizziness with exertion.  His blood pressure today was 124/80.  We discussed adherence to his current regimen and the importance of monitoring for any worsening symptoms, as he has had a couple of close calls in the past that warranted urgent care.",0
+P00408,2022-11-18,56,F,Heart Failure,"furosemide, carvedilol",No,111,"Ms. D. is a 56-year-old female with a history of heart failure presenting for routine follow-up. She reports good adherence to her medications, including the diuretic and beta-blocker. Her blood pressure today is 111 systolic, which is a bit lower than her usual range. She denies any recent worsening of shortness of breath or swelling. We discussed the importance of monitoring for any signs of decompensation and to call if symptoms increase.",0
+P00042,2023-11-08,30,F,COPD,tiotropium,Yes,165,"Ms. J is a 30-year-old female with a history of COPD presenting for routine follow-up. She reports good adherence to her tiotropium inhaler, using it daily as prescribed. She denies any acute exacerbations since her last visit, though admits to occasional shortness of breath with significant exertion. Her smoking status remains positive, and she expresses a desire to cut back but has not initiated a formal cessation program. Blood pressure today was elevated at 165 systolic, warranting discussion of lifestyle modifications and potential further evaluation. We will recheck her BP in clinic next month.",1
+P00449,2024-03-14,76,M,Asthma,"fluticasone, albuterol",,156,"76 y/o male presents for routine follow-up of his asthma. He reports good control on his daily fluticasone inhaler, using his albuterol rescue inhaler only a few times per month, primarily with exertion. Blood pressure was elevated today at 156/88, which is unusual for him. He denies any recent exacerbations or hospitalizations, though he has been feeling a bit more short of breath with stairs lately. We discussed continued adherence to his controller medication and will monitor his home BP readings.",0
+P00477,2024-04-07,69,F,Asthma,"albuterol, fluticasone",,168,"Ms. Smith is a 69-year-old female presenting for routine follow-up of her asthma. She reports good control on her current regimen, using her albuterol inhaler only a few times a week for mild shortness of breath. She denies any recent exacerbations or hospitalizations, though she did have a brief course of oral steroids last fall for a bad cough. Her blood pressure today was elevated at 168/92, and she will need to discuss this further with her primary care physician. We will continue her daily fluticasone and encourage strict adherence.",0
+P00270,2024-10-21,26,M,Hypertension,amlodipine,Yes,157,"**Subjective:** Mr. J. is a 26-year-old male presenting for follow-up of his blood pressure. He reports taking his amlodipine daily, though admits to sometimes forgetting a dose. He states he's been trying to cut back on cigarettes, but it's a struggle. He denies any chest pain or shortness of breath.
+
+**Objective:** BP 157/92. Lungs clear to auscultation bilaterally. No peripheral edema noted.
+
+**Assessment:** Uncontrolled hypertension.
+
+**Plan:** Continue amlodipine 5mg daily. Reinforce lifestyle modifications, particularly smoking cessation and dietary salt reduction. Discussed potential need for additional antihypertensive agent if BP remains elevated next visit. Patient reports feeling generally well otherwise and is not experiencing any new symptoms that would suggest a need for urgent re-evaluation.",0
+P00061,2023-09-30,52,F,Asthma,"albuterol, fluticasone",No,130,"52F presents for routine asthma follow-up. She reports good control on her current regimen, primarily using albuterol for occasional shortness of breath, with fluticasone inhaler used daily. She denies any recent exacerbations or hospitalizations. Vital signs were stable, with a BP of 130/80. We will continue current medications and schedule for another visit in three months.",0
+P00190,2022-07-18,38,F,Asthma,fluticasone,Yes,167,"**Subjective:** Ms. Doe, a 38-year-old female with a history of asthma, presents for routine follow-up. She reports good control of her breathing, though admits to occasional wheezing after exertion. She denies any recent exacerbations requiring urgent care. She continues her daily fluticasone inhaler as prescribed.
+
+**Objective:** BP 167/98. Lungs clear to auscultation bilaterally.
+
+**Assessment:** Asthma, well-controlled. Hypertension, new diagnosis.
+
+**Plan:** Continue fluticasone. Initiate lisinopril for hypertension. Advise smoking cessation and discuss potential impact on her respiratory health. Discussed importance of adherence to medications to prevent future hospitalizations.",1
+P00159,2024-02-07,69,M,Heart Failure,"carvedilol, furosemide",No,159,"69M presents for routine follow-up of his heart failure. His blood pressure today was elevated at 159/XX, and he reports occasional mild shortness of breath with exertion, though he denies any significant swelling. He denies smoking. He is continuing his carvedilol and furosemide as prescribed. We discussed adherence and reviewed potential lifestyle modifications. He denies any recent hospitalizations or ER visits.",0
+P00424,2024-07-15,57,M,COPD,"albuterol, tiotropium",No,155,"Subject: 57M, established COPD
+
+Patient is a 57-year-old male with a history of COPD presenting for routine follow-up. He reports occasional shortness of breath, particularly with exertion, but denies any recent exacerbations requiring hospitalization. He continues to use his albuterol inhaler as needed and finds the tiotropium helpful for daily symptom control. His blood pressure today was 155/92, which is a bit elevated from his usual range, and we discussed adherence to his prescribed medications. He denies any current tobacco use and has been quit for many years. He expresses some concern about his breathing limitations and wants to ensure he's doing everything possible to avoid another hospital visit.",0
+P00438,2022-04-04,80,F,Heart Failure,furosemide,Yes,189,"Ms. Eleanor Vance is an 80-year-old female with a history of heart failure presenting today for follow-up. Her blood pressure was elevated at 189/92, and she reports some mild shortness of breath on exertion, particularly after climbing stairs. She denies any chest pain or palpitations. She is currently taking her lasix as prescribed, though she admits to occasionally missing doses when she feels well. We discussed the importance of adherence to her medications and a low-sodium diet, especially given her history and recent BP readings. We will recheck her electrolytes and renal function next week, and she is to call immediately if her symptoms worsen or if she develops any leg swelling.",0
+P00389,2024-12-29,80,F,Diabetes,"insulin, metformin",No,114,"Ms. A is an 80-year-old female presenting for routine follow-up of her diabetes. She reports good adherence to her insulin regimen and metformin, though she sometimes forgets her evening dose. Her blood pressure today was 114/70, which is well-controlled. She denies any recent falls or hospitalizations, but has noticed increased fatigue lately, which she attributes to the weather. We will continue current management and reassess at her next visit.",0
+P00480,2023-04-16,28,F,Heart Failure,carvedilol,Yes,138,"Ms. D. is a 28-year-old female presenting for follow-up of her heart failure. She reports feeling generally stable, though she notes occasional shortness of breath with exertion. Her carvedilol has been continued at 12.5mg BID, and she denies any new chest pain. She continues to smoke, which is a significant concern for her cardiac health. Her blood pressure today was 138/88. We discussed lifestyle modifications and the importance of smoking cessation to prevent further decompensation.",0
+P00488,2024-01-11,65,M,Heart Failure,carvedilol,Yes,184,"Subjective: Mr. Smith, a 65-year-old male with a history of heart failure, presents today reporting increased shortness of breath over the past week, particularly with exertion. He denies chest pain or palpitations. He states he's been trying to cut back on cigarettes but admits to smoking about half a pack a day. He's been taking his carvedilol as prescribed.
+
+Objective: Vital signs: BP 184/98, HR 78, RR 20, SpO2 94% on room air. Physical exam reveals bibasilar crackles on lung auscultation. Lower extremity edema is 1+.
+
+Assessment: Worsening heart failure, likely exacerbated by fluid overload and continued smoking. Hypertension is also noted.
+
+Plan: Increase furosemide dose. Continue carvedilol. Strongly counsel on smoking cessation, emphasizing the impact on his heart condition and the risk of future hospitalizations. Schedule follow-up in one week to reassess symptoms and blood pressure.",1
+P00204,2024-09-18,65,M,Heart Failure,"carvedilol, furosemide",No,188,"**Subjective:** Mr. Smith is a 65-year-old male presenting for follow-up of his heart failure. He reports feeling generally well, though he has noticed some increased shortness of breath with exertion over the past week. He denies any chest pain or new edema. He states he's been taking his carvedilol and hydrochlorothiazide as prescribed.
+
+**Objective:** Blood pressure was 188/98. He appears comfortable at rest. Lungs are clear to auscultation bilaterally. Extremities show no significant pitting edema.
+
+**Assessment & Plan:** Worsening heart failure symptoms, likely related to volume overload, despite medication adherence. We will adjust his furosemide dose and reinforce adherence to his current regimen. Close monitoring for any signs of decompensation is advised, and he should present to the ED if symptoms significantly worsen. We'll re-evaluate in two weeks.",0
+P00118,2023-02-25,27,M,Diabetes,metformin,No,182,"Patient is a 27-year-old male with a history of diabetes presenting for routine follow-up. He reports generally good adherence to his metformin, though admits to occasional missed doses when he's busy. His blood pressure today was elevated at 182/95, which is concerning given his underlying condition. We discussed lifestyle modifications and the importance of consistent medication management to prevent further complications. Given the significant BP elevation, we will recheck in one week and consider adding further medication if not improved.",0
+P00498,2024-01-14,65,F,Diabetes,"insulin, metformin",No,166,"65-year-old female presents for routine diabetes management. She reports generally good adherence to her insulin and metformin, though admits to occasional missed doses when busy. Blood pressure today is elevated at 166/92, a slight increase from her last visit. We discussed lifestyle modifications and the importance of consistent medication use to better control her blood sugar and prevent future complications. She denies any new symptoms and denies recent ER visits or hospitalizations. We will recheck her BP in one month.",0
+P00422,2024-12-06,70,F,Hypertension,"amlodipine, lisinopril",No,111,"**Subjective:** 70-year-old female here for routine follow-up. She reports feeling well overall and denies any new complaints. She mentions she's been pretty good about taking her blood pressure pills, though sometimes forgets one of them.
+
+**Objective:** BP 111/72. Lungs clear to auscultation bilaterally. Cardiac exam reveals regular rate and rhythm, no murmurs.
+
+**Assessment:** Hypertension, well-controlled on current regimen.
+
+**Plan:** Continue amlodipine and lisinopril as prescribed. Will recheck BP in 3 months. Advised to continue healthy lifestyle.",0
+P00258,2024-04-27,38,M,Heart Failure,carvedilol,Yes,159,"**Subjective:** 38-year-old male presents for follow-up of heart failure. He reports feeling generally stable, with only occasional shortness of breath after exertion. He denies any new chest pain or significant edema. He states he's been ""trying to cut back"" on cigarettes but admits to still smoking most days.
+
+**Objective:** BP 159/92. Heart rate regular. Lungs clear to auscultation bilaterally. No peripheral edema noted.
+
+**Assessment:** Heart failure, currently stable. Smoking remains a significant risk factor contributing to his cardiovascular health.
+
+**Plan:** Continue current carvedilol. Encourage aggressive smoking cessation strategies. Discussed importance of daily weights and symptom monitoring, emphasizing prompt reporting of any worsening dyspnea or weight gain. Advised to avoid unnecessary exertion.",1
+P00279,2022-08-30,47,F,Asthma,albuterol,,150,"Subjective: Ms. D is a 47-year-old female presenting for routine follow-up of her asthma. She reports good symptom control on her albuterol inhaler, using it only a couple of times a week for mild wheezing, which is a slight increase from her last visit. She denies any recent exacerbations or hospitalizations.
+
+Objective: Vitals: BP 150/90. Lungs clear to auscultation bilaterally.
+
+Assessment: Stable asthma, with slight increase in albuterol use.
+
+Plan: Continue albuterol as needed. Discussed inhaler technique and importance of avoiding triggers. Advised to present to ED if symptoms worsen significantly or she requires frequent albuterol. Follow up in 3 months.",0
+P00232,2022-05-05,65,F,Diabetes,metformin,Yes,162,"The patient is a 65-year-old female presenting for follow-up of her diabetes. Her blood pressure today was elevated at 162 systolic, and we discussed lifestyle modifications and optimizing her current regimen, which includes metformin. She acknowledges occasional non-adherence with her medication and continues to smoke, which is a concern. We reviewed her recent glucose logs, which show some variability, and she reports feeling generally well despite these fluctuations. She is due for her annual eye exam and will follow up in three months.",1
+P00466,2024-04-16,42,F,Heart Failure,furosemide,No,146,"The patient is a 42-year-old female with a history of heart failure. She reports good adherence to her current medication regimen, including the diuretic, and denies any recent exacerbations. Her blood pressure today was 146 systolic, which is a bit higher than her usual baseline, but she denies any associated symptoms like shortness of breath or swelling. She continues to be a non-smoker and is managing well overall, though we will monitor her fluid status closely given the slight BP elevation. We discussed the importance of maintaining her medication schedule and following up if any concerning symptoms arise.",0
+P00486,2024-09-06,60,F,Asthma,albuterol,Yes,177,"Ms. Smith is a 60-year-old female presenting for follow-up of her asthma. She reports using her albuterol inhaler about twice a week for mild shortness of breath, which is a slight increase from her last visit. She denies any recent exacerbations requiring hospitalization, though she does mention feeling a bit more wheezy lately, especially with her smoking. Her blood pressure today was elevated at 177/92. We will continue her current regimen and discuss smoking cessation further at her next appointment.",0
+P00043,2024-04-04,65,M,Asthma,"fluticasone, albuterol",No,151,"The patient is a 65-year-old male with a history of asthma presenting for routine follow-up. He reports good control of his asthma, using his inhaler less frequently than before. His blood pressure was elevated today at 151/88, and we discussed lifestyle modifications. We will continue his current regimen of fluticasone and albuterol, and I encouraged him to schedule an appointment if he experiences any worsening symptoms or any concerning changes. He denies any recent hospitalizations or ER visits, which is reassuring.",0
+P00081,2023-08-15,59,M,Diabetes,insulin,Yes,186,"Mr. Smith is a 59-year-old male with a history of diabetes presenting for routine follow-up.  His blood pressure remains elevated at 186/90, requiring further management.  We discussed adherence to his insulin regimen and encouraged lifestyle modifications to help control his sugars.  He reported occasional smoking despite previous counseling.  We will reassess his medications at his next visit and consider escalating therapy if his blood pressure doesn't improve.",0
+P00217,2023-04-29,82,F,Diabetes,"metformin, insulin",,156,"Ms. Smith, an 82-year-old female, presented for routine follow-up of her diabetes. Her blood pressure was elevated today at 156 systolic, which is a slight increase from her last visit. We discussed adherence to her metformin and insulin regimen, and she reported generally good control, though she sometimes misses a dose when feeling unwell. She denied any new symptoms or concerns that would suggest an urgent need to revisit her care plan, but we will monitor this closely given her age. We will recheck her BP in a month and discuss further management if it remains elevated.",0
+P00087,2024-11-27,76,M,Hypertension,"amlodipine, lisinopril",No,134,"Mr. Smith is a 76-year-old male with a history of hypertension presenting for routine follow-up. He reports good adherence to his medications, including the amlodipine and lisinopril, and denies any new symptoms. His clinic blood pressure was 134/88, which is within his usual range. We discussed the importance of continued lifestyle modifications to manage his blood pressure and reviewed his medication list. He denies any recent hospitalizations and is feeling well overall.",0
+P00382,2024-11-04,49,F,Asthma,fluticasone,No,155,"**Subjective:** Ms. J is a 49-year-old female presenting for routine follow-up of her asthma. She reports good control on her current regimen, though she notes occasional wheezing, particularly with exertion. She denies any recent exacerbations requiring emergency room visits or hospitalizations.
+
+**Objective:** Vitals: BP 155/85. Lungs clear to auscultation bilaterally.
+
+**Assessment:** Stable asthma, well-controlled on inhaled corticosteroid therapy.
+
+**Plan:** Continue fluticasone inhaler as prescribed. Advised on trigger avoidance and to return if symptoms worsen or if she experiences any difficulty breathing that doesn't resolve with her rescue inhaler. No further changes at this time.",0
+P00147,2022-07-31,49,F,Heart Failure,furosemide,No,167,"Ms. J.D., a 49-year-old female with a history of heart failure, presented for routine follow-up. Her blood pressure today was elevated at 167/92. She reports good adherence to her furosemide but notes occasional mild swelling in her ankles, particularly after long periods of standing. We discussed optimizing her diuretic regimen and reviewed lifestyle modifications. Given her recent admission for fluid overload, we will continue close monitoring.",0
+P00366,2024-04-05,58,F,Heart Failure,"furosemide, carvedilol",No,145,"Ms. Doe is a 58-year-old female with a history of heart failure presenting for routine follow-up. She reports feeling generally well, though she notes occasional mild shortness of breath with exertion, particularly after a larger meal. Her home blood pressure readings have been averaging around 145 systolic, which is a slight increase from her last visit. We will continue her current regimen of furosemide and carvedilol, and I've also discussed the importance of monitoring for any worsening symptoms that might necessitate further evaluation or a potential adjustment to her management plan. She denies any recent hospitalizations.",0
+P00263,2023-02-16,81,F,COPD,tiotropium,No,151,"**Subjective:** 81yo F presents for routine follow-up of her COPD. She denies any acute exacerbations and reports her breathing is generally stable on her tiotropium inhaler. She does mention occasional shortness of breath with significant exertion, but denies waking up at night gasping for air. She is hopeful about avoiding another hospital stay this winter.
+
+**Objective:** Vitals: BP 151/88, HR 78, RR 16, SpO2 94% RA. Lungs clear to auscultation bilaterally.
+
+**Assessment:** Stable COPD.
+
+**Plan:** Continue current management. Discussed importance of adherence to inhaler regimen and prompt reporting of worsening symptoms.",0
+P00120,2022-09-27,43,M,COPD,albuterol,No,113,"**Subjective:** Mr. Smith is a 43-year-old male presenting today for routine follow-up of his COPD. He reports generally stable symptoms since his last visit, with occasional mild shortness of breath on exertion that improves with his albuterol inhaler, which he uses about twice a week. He denies any recent exacerbations requiring hospitalization or unscheduled visits.
+
+**Objective:** Vitals: BP 113/78, HR 72, RR 16, SpO2 95% on room air. Lungs are clear to auscultation bilaterally.
+
+**Assessment:** Stable COPD.
+
+**Plan:** Continue current albuterol PRN. Advised on smoking cessation resources, though patient states he has never smoked. Recommend annual influenza vaccination. Follow up in 6 months or sooner if symptoms worsen.",0
+P00144,2023-09-13,82,F,Heart Failure,"furosemide, carvedilol",No,118,"Ms. Doe is an 82-year-old female with a history of heart failure presenting for routine follow-up. She reports feeling generally well, with only occasional mild shortness of breath, particularly with exertion. Her current medication regimen includes furosemide and carvedilol, which she states she's taking as prescribed. Blood pressure today was 118/76. We discussed the importance of monitoring for any worsening symptoms and encouraged her to call if she experiences increased swelling or difficulty breathing, as we want to avoid another hospital stay.",0
+P00033,2024-05-25,25,F,Hypertension,"lisinopril, amlodipine",No,180,"Ms. Doe is a 25-year-old female presenting for follow-up of her newly diagnosed hypertension.  She reports occasional adherence to her lisinopril and amlodipine, admitting to sometimes forgetting doses.  Her home blood pressure readings have been elevated, averaging around 180 systolic, and she denies any associated symptoms like chest pain or shortness of breath.  Given her young age and current control, we will reinforce lifestyle modifications and discuss the importance of consistent medication use to prevent future complications. We need to ensure her blood pressure is better managed to avoid any immediate need for further intervention.",0
+P00310,2022-04-23,56,M,Hypertension,amlodipine,,188,"Subjective: 56-year-old male presents for routine follow-up of his elevated blood pressure. He denies chest pain, shortness of breath, or any other acute complaints. He reports taking his amlodipine as prescribed, though he sometimes forgets to refill it on time.
+
+Objective: Blood pressure today was 188/92. Otherwise, physical exam was unremarkable.
+
+Assessment: Uncontrolled hypertension.
+
+Plan: Increase amlodipine to 10mg daily. Will consider adding another agent at next visit if goal BP not achieved. Advised on lifestyle modifications and to return in 4 weeks for reassessment. He mentioned he was recently in the ER for his pressure, but could not recall the exact date.",0
