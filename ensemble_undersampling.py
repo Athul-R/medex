@@ -83,6 +83,7 @@ def validation_grid_search(ensemble_model, X_val, y_val):
     best_thr = 0.5
     best_f2 = -1
     best_precision = 0
+    recall_threshold = 0.6
 
     print("\nThreshold Tuning (Val Set):")
     for thr in thresholds:
@@ -95,7 +96,7 @@ def validation_grid_search(ensemble_model, X_val, y_val):
 
         print(f"thr={thr:.2f}  P={precision:.3f}  R={recall:.3f}  F2={f2:.3f}")
 
-        if precision > best_precision:
+        if precision > best_precision and recall > recall_threshold:
             best_precision = precision
             best_f2 = f2
             best_thr = thr
