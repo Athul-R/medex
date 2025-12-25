@@ -13,26 +13,40 @@ def main():
     X = df.drop(readmitted_column, axis=1)
     y = df[readmitted_column]
 
-    # First: create a test set (unseen, ~20%) with stratification
+    # Perform Undersampling to achieve 50/50 split on readmitted_30d
+    count_class_1 = y.sum()
+    df_class_0 = df[df[readmitted_column] == 0]
+    df_class_1 = df[df[readmitted_column] == 1]
+
+    df_class_0_under = df_class_0.sample(count_class_1, random_state=42)
+    df_balanced = pd.concat([df_class_0_under, df_class_1], axis=0).sample(frac=1, random_state=42)
+
+    X_balanced = df_balanced.drop(readmitted_column, axis=1)
+    y_balanced = df_balanced[readmitted_column]
+
+    print(f"Balanced Dataset Distribution:\n{y_balanced.value_counts()}")
+
+    # First: create a test set (~25%) with stratification
     X_temp, X_test, y_temp, y_test = train_test_split(
-        X, y,
-        test_size=0.20,      # 100 out of 500 approx
-        stratify=y,
+        X_balanced, y_balanced,
+        test_size=0.25,
+        stratify=y_balanced,
         random_state=42
     )
 
-    # Second: split remaining into train + validation (70/10)
+    # Second: split remaining into train + validation (50/25)
     X_train, X_val, y_train, y_val = train_test_split(
         X_temp, y_temp,
-        test_size=0.125,     # 0.125 of 400 = 50 → for val
+        test_size=0.333,     # 0.333 of 0.75 is ~0.25 of total → for val
         stratify=y_temp,
         random_state=42
     )
 
-    # # Print class distributions to verify correctness
-    # print("Train:", y_train.value_counts(normalize=True))
-    # print("Val:  ", y_val.value_
-
+    # Print class distributions to verify correctness
+    print("\nSplit Distributions (counts):")
+    print("Train:\n", y_train.value_counts())
+    print("Val:  \n", y_val.value_counts())
+    print("Test: \n", y_test.value_counts())
 
     # -----------------------------
     # Save splits to CSV

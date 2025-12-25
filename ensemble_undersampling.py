@@ -3,29 +3,21 @@ warnings.filterwarnings("ignore", category=FutureWarning)
 
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier, VotingClassifier
-
-from imblearn.over_sampling import SMOTE
-from imblearn.pipeline import Pipeline   # NOTE: from imblearn.pipeline
-
+from imblearn.pipeline import Pipeline
 from sklearn.svm import SVC
 from sklearn.ensemble import BaggingClassifier, AdaBoostClassifier
 from sklearn.model_selection import GridSearchCV
 from preprocessor import column_processor, get_train_test_data, preprocess_data
 import joblib
 from joblib import Parallel, delayed
-
-from sklearn.metrics import precision_recall_fscore_support, classification_report, confusion_matrix
+from sklearn.metrics import precision_recall_fscore_support
 import numpy as np
 
-
-from sklearn.base import clone
-
 def train_ensemble(X_train, y_train, X_val, y_val, preprocess):
-    # Base pipeline structure for individual tuning
+    # Base pipeline structure for individual tuning (NO SMOTE)
     def create_tuning_pipeline(clf):
         return Pipeline(steps=[
             ("preprocess", preprocess),
-            ("smote", SMOTE(random_state=42)),
             ("clf", clf),
         ])
 
@@ -38,7 +30,7 @@ def train_ensemble(X_train, y_train, X_val, y_val, preprocess):
     best_svm = gs_svm.best_estimator_.named_steps['clf']
     print(f"Best SVM Params: {gs_svm.best_params_}")
 
-    # 2. Tune Decision Tree (will be used for Bagging and Boosting)
+    # 2. Tune Decision Tree
     print("\nTuning Decision Tree...")
     dt_pipe = create_tuning_pipeline(DecisionTreeClassifier(class_weight="balanced", random_state=42))
     param_grid_dt = {
@@ -63,8 +55,6 @@ def train_ensemble(X_train, y_train, X_val, y_val, preprocess):
     print(f"Best RF Params: {gs_rf.best_params_}")
 
     print("\nConstructing Final Ensemble...")
-    # Use best estimators to build the ensemble
-    # Note: Bagging and Boosting will use the tuned base Decision Tree
     bagging_dt = BaggingClassifier(estimator=best_dt, n_estimators=50, random_state=42, n_jobs=1)
     boosted_dt = AdaBoostClassifier(estimator=best_dt, n_estimators=50, random_state=42)
 
@@ -79,27 +69,19 @@ def train_ensemble(X_train, y_train, X_val, y_val, preprocess):
         n_jobs=1
     )
 
-    # Final Pipeline with the tuned ensemble
     ensemble_model = Pipeline(steps=[
         ("preprocess", preprocess),
-        ("smote", SMOTE(random_state=42)),
         ("vote", voting_clf),
     ])
 
-    # Fit final model on full training set
     ensemble_model.fit(X_train, y_train)
-
     return ensemble_model
 
 def validation_grid_search(ensemble_model, X_val, y_val):
-    # Get validation probabilities for positive class
     y_val_proba = ensemble_model.predict_proba(X_val)[:, 1]
-
-    # Grid search over thresholds to emphasize recall (F2)
     thresholds = np.linspace(0.05, 0.95, 19)
-    desired_recall = 0.60
-    # Grid search over thresholds to emphasize F2 score
     best_thr = 0.5
+    best_f2 = -1
     best_precision = 0
 
     print("\nThreshold Tuning (Val Set):")
@@ -115,10 +97,10 @@ def validation_grid_search(ensemble_model, X_val, y_val):
 
         if precision > best_precision:
             best_precision = precision
+            best_f2 = f2
             best_thr = thr
 
-    print(f"\nBest threshold by F2 on val: {best_thr:.2f}, F2={best_precision:.3f}")
-
+    print(f"\nBest threshold by F2 on val: {best_thr:.2f}, F2={best_f2:.3f}")
     return best_thr
 
 def test_model(model, X_test, y_test, threshold):
@@ -129,8 +111,6 @@ def test_model(model, X_test, y_test, threshold):
     )
     print(f"Test Precision: {precision:.3f}, Test Recall: {recall:.3f}")
 
-
-
 def main():
     print("Loading data...")
     train_df, val_df, test_df = get_train_test_data()
@@ -139,17 +119,11 @@ def main():
     X_test, y_test = preprocess_data(test_df)
     col_processor = column_processor()
     print("Training...")
-    model = train_ensemble(X_train, y_train, X_val, y_val, col_processor)   
+    model = train_ensemble(X_train, y_train, X_val, y_val, col_processor)
     print("Validation...")
     threshold = validation_grid_search(model, X_val, y_val)
     print("Testing...")
     test_model(model, X_test, y_test, threshold)
 
-
-
 if __name__ == "__main__":
     main()
-
-
-    
-    
